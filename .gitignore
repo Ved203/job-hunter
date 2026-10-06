@@ -1,0 +1,21 @@
+# Environment variables
+.env
+
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Browser/session data
+browser_profile/
+
+# Local database
+jobs.db
+
+# Generated files
+exports/
+
+# Personal information
+my_profile.txt

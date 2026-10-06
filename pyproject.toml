@@ -1,0 +1,24 @@
+[project]
+name = "gen-ai-job-hunter"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Vedant Swami", email = "vedant272823@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "apify-client>=3.2.0",
+    "langchain-groq>=1.1.3",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.6",
+    "playwright>=1.63.0",
+    "python-dotenv>=1.2.3",
+    "streamlit>=1.64.0",
+]
+
+[project.scripts]
+gen-ai-job-hunter = "gen_ai_job_hunter:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
